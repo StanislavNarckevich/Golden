@@ -1,0 +1,365 @@
+body {
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+ 
+      /*Header*/
+
+.header {
+	background: url('../images/bg.png') center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	padding: 50px 100px;
+	margin-bottom: 120px;
+
+}
+       /* Header_iner*/
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  padding-bottom: 185px;
+}
+
+.nav {
+	font-size: 15px;
+}
+
+.nav_link {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav_link:hover {
+color: #fce38a;
+}
+
+.logo {
+	/*width: : 90px;
+  height: 35px*/;
+}
+
+      /*Header_intro*/
+
+.header_intro {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.welcome {
+text-transform: uppercase;
+font-size: 40px;
+/*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+color: #fff;
+margin-bottom: 50px;
+}
+
+.meet {
+	text-transform: uppercase;
+	font-size: 75px;
+	/*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 60px;
+}
+
+.btn {
+	/*width: 240px;
+	height: 65px;*/
+	padding: 32px 120px;
+  background-color: #fed136; 
+	color: #484543;
+	font-size: 18px;
+	/*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+  text-align: center;
+  vertical-align: center;
+  border: 3px solid fed136;
+  transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover {
+background-color: #fff;
+color: #333;
+}
+
+       /*Services*/
+
+.services {
+	padding: 0px 100px;
+	width: inherit;
+	height: inherit;
+}
+
+.services, .e_commerse, .responsive_web, .web_security {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.offers {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 120px;
+}
+
+       /*Intro_title*/
+
+.intro_title {
+	text-transform: uppercase;
+	font-size: 40px;
+	/*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+	color: #333;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.intro_suptitle {
+	font-size: 16px;
+	color: #acacac;
+	/*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+  margin-bottom: 80px;
+} 
+
+       /*E-comerse*/
+
+.e_commerce_title, .responsive_web_title, .web_security_title {
+font-size: 18px;
+font-weight: 700;
+color: #222222;
+/*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+margin-bottom: 20px;
+}
+
+.e_commerce_suptitle, .responsive_web_suptitle, .web_security_suptitle {
+	color: #838383;
+	font-size: 14px;
+	/*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+}
+
+.e_commerce_logo, .responsive_web_logo, .web_security_logo {
+	margin-bottom: 25px;
+}
+
+.e_commerse, .responsive_web, .web_security {
+	margin: 0 40px;
+}
+
+      /*Our portfolio*/
+
+.our_portfolio {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+-webkit-flex-direction: column;
+-moz-flex-direction: column;
+-ms-flex-direction: column;
+-o-flex-direction: column;
+flex-direction: column;
+-ms-align-items: center;
+align-items: center;
+padding: 0 230px;
+/*margin-top: 120px;*/
+background: #f7f7f7;
+} 
+
+.our_portfolio_title {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	margin-top: 120px;
+}
+
+.our_portfolio_suptitle {
+	font-size: 16px;
+	margin-bottom: 80px;
+}
+
+.our_portfolio_pictures {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	padding: 0 17px 141px;
+}
+
+.img1, .img2, .img3 {
+	margin: 0 40px;
+	width: 290px;
+	height: 302px;
+}
+
+       /*About us*/
+
+.about_us {
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+-webkit-flex-direction: column;
+-moz-flex-direction: column;
+-ms-flex-direction: column;
+-o-flex-direction: column;
+flex-direction: column;
+-ms-align-items: center;
+align-items: center;
+/*padding: 0 230px;*/
+}       
+
+.about_us_title {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 21px;
+	margin-top: 120px;
+}
+
+.about_us_suptitle {
+	font-size: 16px;
+	margin-bottom: 80px;
+}
+
+				/*About us posts*/
+
+.months_posts {
+
+}				
+
+.months_title {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+
+.months_suptitle {
+	margin-bottom: 25px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.text {
+	font-size: 14px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.img_about {
+/*	width: 183px!important;
+*/	height: 183px;
+}
+
+.july_text, .january_text, .december_text, .february_text {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+.july_text, .december_text {
+	margin-right: 42px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+	width: 280px;
+	height: 165px;
+	margin-left: 285px;
+}
+
+.january_text, .february_text {
+  margin-left: 42px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+  width: 280px;
+	height: 165px;
+	margin-right: 285px;
+}
+
+.january, .july, .december, .february {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.february, .january {
+	flex-direction: row-reverse;
+}
+
+.july, .december {
+	text-align: right;
+}
+
+.empty {
+	width: 280px;
+	height: 165px;
+}
+
+.july .empty {
+	margin-right: 285px;
+	margin-left: 42px;
+}
+
+.december .empty {
+		margin-right: 285px;
+		margin-left: 42px;
+}
+
+.january .empty {
+	margin-right: 42px;
+	margin-left: 285px;
+}
+
+.february .empty {
+	margin-left: 285px;
+	margin-right: 42px;
+}
